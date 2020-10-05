@@ -1,6 +1,8 @@
 name: example-environment
 channels:
   - conda-forge
+  - cantera
+  - cantera/label/dev
 dependencies:
   - numpy
   - psutil
@@ -11,3 +13,4 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - cantera
