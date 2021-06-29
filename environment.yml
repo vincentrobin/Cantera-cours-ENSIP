@@ -2,6 +2,7 @@ name: example-environment
 channels:
   - cantera
   - cantera/label/dev
+  - shapely
 dependencies:
   - numpy
   - matplotlib
